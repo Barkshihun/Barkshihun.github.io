@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>toDoClock</title>
+    <link href="style.css" rel="stylesheet"/>
+    <meta charset="UTF-8"
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="js-clock center whiteBg">
+        <h1 class="clockBg">00:00</h1><br>
+        <span class="js-weather clockBg">...</span>
+      </div>
+    </div>
+    <div class="container">
+      <form class="js-form form center">
+        <input type="text" placeholder="이름이 뭡니까?"/>
+      </form>
+      <h4 class="js-greetings greetings name">name</h4><button class="js-delUserName delUserName">❌</button>
+    </div>
+    <form class="js-toDoForm center">
+      <input type="text" placeholder="할 것을 적자"/>
+    </form>
+    <div class="center">
+      <ul class="js-toDoList finishBg">
+      </ul>
+    </div>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
+
+</html>
